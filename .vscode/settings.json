@@ -1,0 +1,17 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
+    "editor.formatOnSave": true,
+    // Runs Prettier, then ESLint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "[json]": {
+        // JSON specific settings goes here
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

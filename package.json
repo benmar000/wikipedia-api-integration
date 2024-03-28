@@ -1,0 +1,30 @@
+{
+  "name": "typescript-esm-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/benmar000/typescript-esm-starter.git",
+  "author": "Benjamin Martinez <benmar000@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "ts-run": "node --loader ts-node/esm --trace-warnings --no-warnings --es-module-specifier-resolution node",
+    "format": "yarn lint:fix",
+    "test": "mocha ./src/**/*.test.*"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

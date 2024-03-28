@@ -1,0 +1,9 @@
+{
+    "node-option": [
+        "es-module-specifier-resolution=node",
+        "experimental-specifier-resolution=node",
+        "loader=ts-node/esm",
+        "trace-warnings",
+        "no-warnings"
+    ]
+}
